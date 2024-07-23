@@ -15,8 +15,11 @@ h1{
 .copy-text {
     position: absolute;
     bottom: 10px;
-    font-size: 14px;
+    font-size: 30px;
     color: black;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
 }
 .input-field {
     width: 48%;
@@ -26,7 +29,7 @@ h1{
 .output-field {
     width: 48%;
     color: black;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     background-color: #f0f0f0;
     padding: 10px;
@@ -49,8 +52,12 @@ button:hover {
     background-color: red;
     color: black;
 }
-.legend {
+.description {
     text-align: center;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f0f0f0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
 }
