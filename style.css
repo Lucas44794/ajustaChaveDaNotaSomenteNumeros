@@ -12,6 +12,12 @@ h1{
     margin-bottom: 10px;
     height: 200px;
 }
+.copy-text {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    color: black;
+}
 .input-field {
     width: 48%;
     font-size: 35px;
