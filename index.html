@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remover Espaços</title>
+</head>
+<body>
+    <h1>Remover Espaços Da Chave Da Nota Fiscal</h1>
+    <p>Insira a chave da nota abaixo</p>
+    <div class="container">
+        <textarea class="input-field" id="inputText" placeholder="Insira seu texto aqui"></textarea>
+        <div class="output-field" id="outputText" onclick="copiarTexto()"></div>
+    </div>
+    <div class="legend">Clique para copiar</div>
+    <div class="buttons">
+        <button onclick="removerEspacos()">Gerar</button>
+        <button onclick="limparCampos()">Limpar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

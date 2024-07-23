@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.input-field {
+    width: 48%;
+    font-size: 35px;
+    font-weight: 400;
+}
+.output-field {
+    width: 48%;
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 35px;
+    font-weight: 800;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+    color: black;
+}
+.legend {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
