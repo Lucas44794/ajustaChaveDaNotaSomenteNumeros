@@ -2,6 +2,10 @@ body {
     background-color: black;
     color: white;
 }
+h1{
+    text-align: center;
+    text-shadow: 0.51px rgb(80, 23, 23);
+}
 .container {
     display: flex;
     justify-content: space-between;
